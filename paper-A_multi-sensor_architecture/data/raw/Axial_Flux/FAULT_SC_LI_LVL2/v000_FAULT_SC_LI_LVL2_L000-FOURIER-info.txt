@@ -1,0 +1,2 @@
+Class_name,Class_number
+FAULT_SC_LI_LVL2-L000,6
