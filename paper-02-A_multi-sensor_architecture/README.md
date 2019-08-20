@@ -1,15 +1,42 @@
-Feijo's Master Degree - Qualifying Exam
+A multi-sensor architecture for robust identificationof incipient short-circuits in wind turbine generators
 ===
 
-## How to use it:
+The source code necessary to run all experiments discussed in the paper are available here.
+
+## Repo structure
 
 Clone the full repo and pay attention for the if the data folder follows the structure
     
     .
     ├── data
     │   ├── csv             - csv concataned and chunks
-    │   └── raw             - Raw csv files of each class
+    ├── models              - models, transformers and pippelines
+    ├── notebooks           - notebooks for data analyses
+    ├── results             - results folder
+    └── src                 - source code
 
+
+## Data folder
+Inside the csv folder there are the sensor settings datasets in a `csv` format ready to be fed into the model's pipeline. The naming convention refer to parameters, for example, the file `v000_SCIG_SC_SENSORC_FOURIER.csv` tell us,
+
+
+- `v000`: version of the database (concerns only to author).
+- `SCIG`: electrical machine is a Squirrel-Cage Induction Generator (SCIG).
+- `SC`: The inserted fault is short-circuit (SC)
+- `SENSORC`: The sensor used to monitor the machine. 
+- `FOURIER`: The feature extracted method used to build the dataset.
+
+## Models folder
+
+It contains all instaces used in the simulations. The objects are serialized in a pickle format using the extension `.pkl`. Unpackle it using the proper method. The libraty `joblib` is recommended. This folder is organized as follows
+
+- [classifier](classifier/): contain the trainned classifiers. They follow a straightfoward naming convention. For example, `clf_SENSORC_FOURIER_mlp_union.pkl` stands for the MLP classifiers, using the feature union process, trained on the dataset built using the feature extraction method Fourier and the raw signal is a three-phases current sensor.
+- [pipeline](pipeline/): contains the transformer that ought to be used to prepare inputs for the classifiers. The process is decribed in paper's Section II.A. The pipeline is a composition of scalers and selector.
+- [scaler](scaler): The feature scaler used to standandize features.
+- [selector](selector): The feature selector to be applied in the datasets. The naming `SF` stands for set of feature and the labeling `1` or `2` refers to the set of features and the extra features, respectivelly. Describe in paper's Section II.B.
+
+
+## How to run
 
 1. Navigate to [src](src/) and setup the environment:
 
