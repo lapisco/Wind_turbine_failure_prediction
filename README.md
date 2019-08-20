@@ -1,7 +1,4 @@
-
 # The framework for wind turbine failure prediction
-
-<!-- TOC -->autoauto- [The framework for wind turbine failure prediction](#the-framework-for-wind-turbine-failure-prediction)auto    - [Publications](#publications)auto        - [Reboucas *et al*, 2018 - A reliable approach for detection of incipient faults of short-circuits in induction generators using machine learning](#reboucas-et-al-2018---a-reliable-approach-for-detection-of-incipient-faults-of-short-circuits-in-induction-generators-using-machine-learning)autoauto<!-- /TOC -->
 
 
 Machine learning applied to wind turbines incipient fault detection. This is a project staterd in my Master's degree and it is core. [The full dissertation is available here](Dissertation.pdf). 
@@ -12,14 +9,26 @@ There are a few publications that concerns this project. Some are published and 
 I'll post them out here as soon as they are released.
 
 
+<!-- vscode-markdown-toc -->
+* 1. [Publications](#Publications)
+	* 1.1. [Reboucas *et al*, 2018 - A reliable approach for detection of incipient faults of short-circuits in induction generators using machine learning](#Reboucasetal2018-Areliableapproachfordetectionofincipientfaultsofshort-circuitsininductiongeneratorsusingmachinelearning)
+
+<!-- vscode-markdown-toc-config
+	numbering=true
+	autoSave=true
+	/vscode-markdown-toc-config -->
+<!-- /vscode-markdown-toc -->
 
 
-## Publications
 
-### Reboucas *et al*, 2018 - A reliable approach for detection of incipient faults of short-circuits in induction generators using machine learning
+##  1. <a name='Publications'></a>Publications
+
+###  1.1. <a name='Reboucasetal2018-Areliableapproachfordetectionofincipientfaultsofshort-circuitsininductiongeneratorsusingmachinelearning'></a>Reboucas *et al*, 2018 - A reliable approach for detection of incipient faults of short-circuits in induction generators using machine learning
 
 The **main** publications about my dissertations is available at the paper entitle as [A reliable approach for detection of incipient faults of short-circuits in induction generators using machine learning☆
-](https://www.sciencedirect.com/science/article/pii/S0045790618307584).
+](https://www.sciencedirect.com/science/article/pii/S0045790618307584)
+
+The source code for this paper is avaible [here](paper-01-A_reliable_approach).
 
 If you desire to use our dataset or replicate our methodology, I would appreacite if you could cite the paper. The bibtex is:
 
@@ -35,3 +44,13 @@ If you desire to use our dataset or replicate our methodology, I would appreacit
   publisher={Elsevier}
 }
 ```
+
+
+### Nascimento *et al*, 2019 - A multi-sensor architecture for robust identificationof incipient short-circuits in wind turbine generators
+
+The **main** publications about my dissertations is available at the paper entitle as [A reliable approach for detection of incipient faults of short-circuits in induction generators using machine learning☆
+](https://www.sciencedirect.com/science/article/pii/S0045790618307584)
+
+The source code for this paper is avaible [here](paper-01-A_reliable_approach).
+
+If you desire to use our dataset or replicate our methodology, I would appreacite if you could cite the paper. The bibtex is:
