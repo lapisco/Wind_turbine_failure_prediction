@@ -12,6 +12,7 @@ I'll post them out here as soon as they are released.
 <!-- vscode-markdown-toc -->
 * 1. [Publications](#Publications)
 	* 1.1. [Reboucas *et al*, 2018 - A reliable approach for detection of incipient faults of short-circuits in induction generators using machine learning](#Reboucasetal2018-Areliableapproachfordetectionofincipientfaultsofshort-circuitsininductiongeneratorsusingmachinelearning)
+	* 1.2. [Nascimento *et al*, 2019 - A multi-sensor architecture for robust identificationof incipient short-circuits in wind turbine generators](#Nascimentoetal2019-Amulti-sensorarchitectureforrobustidentificationofincipientshort-circuitsinwindturbinegenerators)
 
 <!-- vscode-markdown-toc-config
 	numbering=true
@@ -46,11 +47,6 @@ If you desire to use our dataset or replicate our methodology, I would appreacit
 ```
 
 
-### Nascimento *et al*, 2019 - A multi-sensor architecture for robust identificationof incipient short-circuits in wind turbine generators
+###  1.2. <a name='Nascimentoetal2019-Amulti-sensorarchitectureforrobustidentificationofincipientshort-circuitsinwindturbinegenerators'></a>Nascimento *et al*, 2019 - A multi-sensor architecture for robust identificationof incipient short-circuits in wind turbine generators
 
-The **main** publications about my dissertations is available at the paper entitle as [A reliable approach for detection of incipient faults of short-circuits in induction generators using machine learning☆
-](https://www.sciencedirect.com/science/article/pii/S0045790618307584)
-
-The source code for this paper is avaible [here](paper-01-A_reliable_approach).
-
-If you desire to use our dataset or replicate our methodology, I would appreacite if you could cite the paper. The bibtex is:
+This paper has been submited and is still in under revision by the editorial group. Its source code is is available [here](paper-02-A_multi-sensor_architecture).
