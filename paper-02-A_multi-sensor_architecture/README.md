@@ -1,7 +1,7 @@
-A multi-sensor architecture for robust identificationof incipient short-circuits in wind turbine generators
+A multi-sensor architecture for robust identification of incipient short-circuits in wind turbine generators
 ===
 
-The source code necessary to run all experiments discussed in the paper are available here.
+The source code necessary to run all experiments discussed in the paper.
 
 ## Repo structure
 
