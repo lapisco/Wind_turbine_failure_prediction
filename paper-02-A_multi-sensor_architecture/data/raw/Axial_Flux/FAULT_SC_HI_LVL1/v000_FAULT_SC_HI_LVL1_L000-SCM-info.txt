@@ -1,2 +1,0 @@
-Class_name,Class_number
-FAULT_SC_HI_LVL1-L000,2

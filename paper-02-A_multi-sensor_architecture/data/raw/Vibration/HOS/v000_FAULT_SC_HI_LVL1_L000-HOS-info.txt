@@ -1,2 +1,0 @@
-Class_name,Class_number
-SC-HI-LVL1-L000,2
