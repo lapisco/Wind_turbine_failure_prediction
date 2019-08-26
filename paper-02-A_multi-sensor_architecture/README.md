@@ -26,6 +26,8 @@ Inside the csv folder there are the sensor settings datasets in a `csv` format r
 - `SENSORC`: The sensor used to monitor the machine. 
 - `FOURIER`: The feature extracted method used to build the dataset.
 
+All datasets used in the paper are inside this folder. [More details about theses dataset are here.](data/csv/)
+
 ## Models folder
 
 It contains all instaces used in the simulations. The objects are serialized in a pickle format using the extension `.pkl`. Unpackle it using the proper method. The libraty `joblib` is recommended. This folder is organized as follows
