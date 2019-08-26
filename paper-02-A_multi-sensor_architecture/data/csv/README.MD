@@ -38,8 +38,9 @@ The naming convetion follows the rule:
 
 The experimental setting is based on [Reboucas *et al*, 2018](https://www.sciencedirect.com/science/article/pii/S0045790618307584) diagram's. More detais are exhibited in this paper.
 
-
+![Bench](figs/bench.png). 
 ![Diagram](figs/diagram.png). 
+
 
 The features in Fourier, HOS and SCM might vary, however the common fields in theses sets are:
 
