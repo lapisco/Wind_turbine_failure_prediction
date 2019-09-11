@@ -44,6 +44,10 @@ The experimental setting is based on [Reboucas *et al*, 2018](https://www.scienc
 
 The features in Fourier, HOS and SCM might vary, however the common fields in theses sets are:
 
+## Current sensor (SENSORC)
+
+The common features in files [`v000_SCIG_SC_SENSORC_FOURIER.csv`](v000_SCIG_SC_SENSORC_FOURIER.csv), [`v000_SCIG_SC_SENSORC_HOS.csv`](v000_SCIG_SC_SENSORC_HOS.csv) and [`v000_SCIG_SC_SENSORC_SCM.csv`](v000_SCIG_SC_SENSORC_SCM.csv) are
+
 
 |    Field   | Description |
 |:----------:|:-----------:|
@@ -86,3 +90,22 @@ The unique features in [`v000_SCIG_SC_SENSORC_FOURIER.csv`](v000_SCIG_SC_SENSORC
 | fx3_T      |  The 3rd multiple of the fundamental frequency of line current T             |
 | fx5_T      |   The 5th multiple of the fundamental frequency of line current T            |
 | fx7_T      |    The 7th multiple of the fundamental frequency of line current T   |
+
+
+The unique features in [`v000_SCIG_SC_SENSORC_HOS.csv`](v000_SCIG_SC_SENSORC_HOS.csv) are:
+
+
+|    Field   | Description |
+|:----------:|:-----------:|
+| Skewness_R      | The Skewness value of of line current R         |
+| Kurtosis_R    |The Kurtosis value of of line current R           |
+| Variance_R    | The Variance value of of line current R                      |
+| RMS_R    |   The RMS value of of line current R                   |
+| Skewness_S      | The Skewness value of of line current S         |
+| Kurtosis_S    |The Kurtosis value of of line current S           |
+| Variance_S    | The Variance value of of line current S                      |
+| RMS_S    |   The RMS value of of line current S                   |
+| Skewness_T      | The Skewness value of of line current T         |
+| Kurtosis_T    |The Kurtosis value of of line current T           |
+| Variance_T    | The Variance value of of line current T                      |
+| RMS_T    |   The RMS value of of line current T            |
