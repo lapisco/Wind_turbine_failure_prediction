@@ -63,7 +63,7 @@ The common features in files [`v000_SCIG_SC_SENSORC_FOURIER.csv`](v000_SCIG_SC_S
 | Class      |  Operational condition           |
 
 
-The unique features in [`v000_SCIG_SC_SENSORC_FOURIER.csv`](v000_SCIG_SC_SENSORC_FOURIER.csv) are:
+### The unique features in [`v000_SCIG_SC_SENSORC_FOURIER.csv`](v000_SCIG_SC_SENSORC_FOURIER.csv) are:
 
 
 |    Field   | Description |
@@ -92,7 +92,7 @@ The unique features in [`v000_SCIG_SC_SENSORC_FOURIER.csv`](v000_SCIG_SC_SENSORC
 | fx7_T      |    The 7th multiple of the fundamental frequency of line current T   |
 
 
-The unique features in [`v000_SCIG_SC_SENSORC_HOS.csv`](v000_SCIG_SC_SENSORC_HOS.csv) are:
+### The unique features in [`v000_SCIG_SC_SENSORC_HOS.csv`](v000_SCIG_SC_SENSORC_HOS.csv) are:
 
 
 |    Field   | Description |
