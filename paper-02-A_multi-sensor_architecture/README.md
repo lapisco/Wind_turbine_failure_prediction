@@ -40,43 +40,36 @@ It contains all instaces used in the simulations. The objects are serialized in 
 
 ## How to run
 
+**It is very important to maintain this repository structure. Instabilities may occur if files are moved without caution. Open a question if ran into any problem.**
+
+### Reproductible results
+
 1. Navigate to [src](src/) and setup the environment:
 
 ```shell
 cd src
-virtualenv -p python3.6 .env
-source .env/bin/activate
+virtualenv -p python3.6 .venv
+source .venv/bin/activate
 pip install -r requirements.txt
 ```
+> You can uso `pipenv` instead of virtualenv, there is a `Pipfile` inside the folder.
 
-2. Run the following script for a **single test**
+2. Run the following scripts to reproduce **our results**
 
-- `python test_clf.py` to print all metrics from the classifiers.
+- `python test_clf_appended.py` and `python test_clf_union.py`. The results are saved under the folder [results](results/).
 
+<!-- - `python run_experiment_union.py` and `python run_experiment_appended.py`. The results are saved under the folder [results](results/). -->
 
-3. Run the whole experinet script for a single test
+> See the [src directory](src/) for more details about the scripts.using another scritps. There is **a lot more** that can be done. And the [results folder](results/) for more details how the results are organized.
 
-**INSIDE THE RASPBERRY PI OR JETSSON RUN THE FOLLOWING** 
-- `python run_experiment.py` to save all results under the [results dir](src/results/)
+### Statistical tests
 
-You could set the parameters:
-- `--runs`: number of independent simulations (*default: 10*);
-- `--round`: approximate number to the follow (*default: 4*);
-- `--output`: folder wherein the results ought to be stored (*default: under ../results*);
-- `--seed`: seed to set for the simulation (*default: np.random state*);
+The statistical tests are made under the [notebook dir](notebooks/). To reproducetheses results open the `notebook-02-statistical_test.ipynb`. The discussion and methods are pretty straightforward.
 
-Example: `python run_experiment.py --runs 50`
+> To run this parte ot is not necessary to run the aforementioned scripts. The results are store in `.pkl`files [here](results). 
+
 
 
 ## More info:
 
-The trained models and pipeline for each feature extractor is saved under [the models dir](models/).
-
-General descriptions about the scripts under the [src dir](src/):
-
-- `dataset_concat.py` concatanet the subset of csv unde the [data/raw/](data/raw/).
-- `example-01.py` example script how to use the classes under the [transform.py](src/transform.py).
-- `save_pipeline.py` is used to save the pipelines for each feature extractor, under the [models dir](models/)
-- `train_clf.py` is used to train all the clasifiers.
-- `transforms.py` are the transformers classes to build a pipeline, following the scikit-learn structure.
-- `utils.py` general utilities stuff.
+Navigate to each folder for more information. There should be a readme file explain in details all proccess. Fell free to contact us, open questions, report bug or PR. Please remember to cite us :)
