@@ -109,3 +109,18 @@ The common features in files [`v000_SCIG_SC_SENSORC_FOURIER.csv`](v000_SCIG_SC_S
 | Kurtosis_T    |The Kurtosis value of of line current T           |
 | Variance_T    | The Variance value of of line current T                      |
 | RMS_T    |   The RMS value of of line current T            |
+
+
+### The unique features in [`v000_SCIG_SC_SENSORC_SCM.csv`](v000_SCIG_SC_SENSORC_SCM.csv) are:
+
+
+|    Field   | Description |
+|:----------:|:-----------:|
+| scm_COR_R      | The Skewness value of of line current R         |
+| scm_IDM_R    |The Kurtosis value of of line current R           |
+| scm_ENT_R    | The Variance value of of line current R                      |
+| scm_CSD_R    |   The RMS value of of line current R                   |
+| scm_CSR_R      | The Skewness value of of line current S         |
+| scm_DKL_R    |The Kurtosis value of of line current S           |
+| scm_MDR_R    | The Variance value of of line current S                      |
+| scm_CAD_R    |   The RMS value of of line current S    |             
